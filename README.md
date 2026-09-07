@@ -9,43 +9,43 @@ Enterprise hybrid identity homelab featuring Active Directory DS on Windows Serv
   * **Title:** Active Directory Domain Services & DNS Role Verification
   * **Description:** Verified successful promotion of Windows Server 2025 (`WS-01`) to Primary Domain Controller for `lab.local`, displaying active AD DS and DNS roles in Server Manager.
   * **Image:**
-    ![AD DS DNS Roles](screenshots/01_ad_ds_dns_installed.png)
+    ![AD DS DNS Roles](screenshots/1_ad_ds_dns_installed.png)
 
 * **02_ou_structure_created.png**
   * **Title:** Enterprise Organizational Unit (OU) Architecture
   * **Description:** Structured Active Directory hierarchy under `Bog_Employees`, provisioning departmental OUs (`IT`) to isolate identity objects for policy application.
   * **Image:**
-    ![OU Architecture](screenshots/02_ou_structure_created.png)
+    ![OU Architecture](screenshots/2_ou_structure_created.png)
 
 * **03_user_and_group_provisioning.png**
   * **Title:** User Account & Security Group Creation
   * **Description:** Provisioned individual employee identity (`David Santos`) and security group (`bruh_IT_Department`) within Active Directory Users and Computers (`dsa.msc`).
   * **Image:**
-    ![User and Group Provisioning](screenshots/03_user_and_group_provisioning.png)
+    ![User and Group Provisioning](screenshots/3_user_and_group_provisioning.png)
 
 * **04_user_account_attributes.png**
   * **Title:** User Principal Name (UPN) & Logon Configuration
   * **Description:** Configured domain account properties for `dsantos@lab.local`, establishing pre-Windows 2000 login attributes and password expiration policies.
   * **Image:**
-    ![User Attributes](screenshots/04_user_account_attributes.png)
+    ![User Attributes](screenshots/4_user_account_attributes.png)
 
 * **05_security_group_membership.png**
   * **Title:** Role-Based Access Control (RBAC) Group Nesting
   * **Description:** Populated security group `bruh_IT_Department` with user account `David Santos` to enable efficient permission auditing and file share authorization.
   * **Image:**
-    ![Group Membership](screenshots/05_security_group_membership.png)
+    ![Group Membership](screenshots/5_security_group_membership.png)
 
 * **06_dns_resolution_verification.png**
   * **Title:** Client-Side DNS Resolution Audit (`nslookup`)
   * **Description:** Executed `nslookup` on client machine (`bog1`) to verify active forward resolution against Domain Controller IP (`10.0.2.10`).
   * **Image:**
-    ![DNS Resolution](screenshots/06_dns_resolution_verification.png)
+    ![DNS Resolution](screenshots/6_dns_resolution_verification.png)
 
 * **07_domain_join_confirmation.png**
   * **Title:** Endpoint Domain Authentication (`whoami`)
   * **Description:** Verified successful endpoint domain join to `lab.local` by authenticating domain user (`LAB\dsantos`) on client workstation.
   * **Image:**
-    ![Domain Authentication](screenshots/07_domain_join_confirmation.png)
+    ![Domain Authentication](screenshots/7_domain_join_confirmation.png)
 
 ---
 
